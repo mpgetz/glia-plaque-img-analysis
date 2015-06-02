@@ -13,7 +13,7 @@ for k = 1:numfiles
 end
 
 %switch back to script directory and run analysis
-cd('HomeDir');
+cd('H:\apps\xp\desktop\Sadowski Lab\Matlab Files');
 gpDistribution = zeros(numfiles/2, 20);
 
 for g=1:(numfiles/2)

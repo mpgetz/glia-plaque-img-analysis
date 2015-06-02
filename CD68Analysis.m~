@@ -11,7 +11,7 @@ for k = 1:numfiles
 end
 
 %switch back to script directory
-cd('HomeDir');
+cd('H:\apps\xp\desktop\Sadowski Lab\Matlab Files');
 
 pAreaVsCDTotal = [];
 TSAreaVsCDTotal = [];
@@ -83,7 +83,6 @@ for file = 1:(numfiles/2)
     disp(file);
 end
 
-%Lab-specific variables
 treatgp = input('If group to analyze is 10D5, type "y" ');
 
 if treatgp == 'y'
